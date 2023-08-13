@@ -14,6 +14,10 @@ class person{
     }
 }
 friend1=new person(" Syeda Aiman","Rashid");
-console.log( `Hello! ${friend1}`);
+console.log( `Hello! ${friend1.firstName} ${friend1.lastName}`);
+// console.log(friend1);
+// console.log(`Hello! ${friend1}`);
 friend2=new person("Nabiha","Jamali");
-console.log(`Hello! ${friend2}`)
+console.log(`Hello! ${friend2.firstName} ${friend2.lastName}`)
+friend3=new person("Rida","Fatima");
+console.log(`Hello! ${friend3.firstName} ${friend3.lastName}`)

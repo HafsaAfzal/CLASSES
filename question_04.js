@@ -10,7 +10,8 @@ class rectangle{
         return `area of rectangle is  ${this.width*this.height}`
     }
     perimeter(){
-        return `perimeter of rectangle is ${2(this.width+this.height)}`
+        let peri=2*(this.width+this.height);
+        return `perimeter of rectangle is ${peri}`
     }
 }
 const rec = new rectangle(5,10);

@@ -6,7 +6,7 @@ class circle {
         this.radius=givenRadius;
     }
     diameter(){
-         let dia=this.radius/2;
+         let dia=this.radius*2;
          return `diameter of a circle is ${dia}`
     }
     circumference(){

@@ -14,7 +14,7 @@ class circle {
         return `circumferenc of a circle is ${cir}`
     }
     area(){
-        return `area of a circle is ${(3.142*(this.radius)^2)}`
+        return `area of a circle is ${(3.142*(this.radius)**2)}`
 
     }
 }

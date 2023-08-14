@@ -4,14 +4,18 @@
 // instead of the width and height.
 class square extends rectangle{
     constructor(givenSide){
+        super()
         this.side=givenSide;
     }
     area(){
         super.area()
-        return `area of a square ${(this.side)^4}`
+        return `area of a square ${(this.side)**4}`
     }
     perimeter(){
         super.perimeter();
-        return `perimenter of a square ${(this.side)*4}`
+        return `perimenter of a square ${((this.side)*4)}`
     }
 }
+let square1=new square(4);
+console.log(square1.area())
+console.log(square1.perimeter())
